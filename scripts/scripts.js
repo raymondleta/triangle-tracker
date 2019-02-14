@@ -1,18 +1,18 @@
 var triangleType = function(){
-  var sides= parseInt(document.getElementById('sides').value);
+  var sides= parse(document.getElementById('sides').value);
   var equal= parseInt(document.getElementById('equal').value);
 
-  var output= document.getElementById('output');
+  var output= document.write('output');
 
-  if(isNaN(sides)|| isNaN(equal)){
-    output.textContent = "Please enter a number!"
+  if(isNaN(sides)&& isNaN(equal)){
+    alert ("Please enter a number!")
   } else if(sides == 3 && equal == 3); {
-    output.textContent=("This is an equilateral triangle");
+    alert("This is an equilateral triangle");
   } else if (sides == 3 && equal == 3); {
-    output.textContent=("This is an isoceles triangle");
+    alert("This is an isoceles triangle");
   } else if (sides ==3 && equal == 0);{
-    output.textContent=("This is an scalene triangle";)
+    alert("This is an scalene triangle");
   } else{
-    output.textContent=("This is not a triangle");
+    alert("This is not a triangle");
   }
 };
