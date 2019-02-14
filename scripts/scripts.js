@@ -6,8 +6,13 @@ var triangleType = function(){
 
   if(isNaN(sides)|| isNaN(equal)){
     output.textContent = "Please enter a number!"
-  } else if {
-    sides == 3 && equal == 3;
-    output.textContent=("This is an equilateral triangle")
+  } else if(sides == 3 && equal == 3); {
+    output.textContent=("This is an equilateral triangle");
+  } else if (sides == 3 && equal == 3); {
+    output.textContent=("This is an isoceles triangle");
+  } else if (sides ==3 && equal == 0);{
+    output.textContent=("This is an scalene triangle";)
+  } else{
+    output.textContent=("This is not a triangle");
   }
 };
