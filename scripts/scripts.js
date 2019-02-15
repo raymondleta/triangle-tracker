@@ -11,15 +11,17 @@ function trackButton(){
   var B=parseFloat(document.getElementById("sideB").value);
   var C=parseFloat(document.getElementById("sideC").value);
 
+  var array1=["Not a triangle!","Equilateral triangle","Isoceles triangle","Scalene triangle","Enter the values"];
+
   if((A+B)<=C || (B+C)<=A || (C+A)<=B){
-      document.getElementById('answerHere').innerHTML="This is not a triangle";
+      document.getElementById('answerHere').innerHTML=array1[0];
     }else if ((A===B) && (B===C) && (C===A)){
-      document.getElementById('answerHere').innerHTML="This is an equilateral triangle";
+      document.getElementById('answerHere').innerHTML=array1[1];
     } else if ((A===B) || (B===C) || (C===B)) {
-      document.getElementById('answerHere').innerHTML="This is an isoceles triangle";
+      document.getElementById('answerHere').innerHTML=array1[2];
     }else if ((A!==B) && (B!==C) && (C!==A)) {
-      document.getElementById('answerHere').innerHTML="This is a scalene triangle";
+      document.getElementById('answerHere').innerHTML=array1[3];
     }else{
-      document.getElementById('answerHere').innerHTML="Enter the values";
+      document.getElementById('answerHere').innerHTML=array1[4];
     }
  };
