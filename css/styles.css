@@ -1,9 +1,11 @@
 h1{
   font-family: 'Hanalei Fill', cursive;
   text-align: center;
+
 }
 #form1{
   margin-left: 30%;
+  margin-top: 10%;
 }
 #inputs{
   margin-left: 40%;
@@ -11,6 +13,10 @@ h1{
 #submitButton{
   margin-left: 120px;
   margin-top: 80px;
+  width: 100px;
+  height: 70px;
+  border-radius: 30px;
+
 }
 #submit{
   margin-left: 140px;
