@@ -1,7 +1,9 @@
+body{
+  background-image: url(../images/purple.png);
+}
 h1{
   font-family: 'Hanalei Fill', cursive;
   text-align: center;
-
 }
 #form1{
   margin-left: 30%;
