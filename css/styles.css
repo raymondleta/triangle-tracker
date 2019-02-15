@@ -1,5 +1,5 @@
 body{
-  background-image: url(../images/shapes6.png);
+  background-image: url(../images/shapes7.jpg);
 }
 h1{
   font-family: 'Hanalei Fill', cursive;
@@ -11,6 +11,8 @@ h1{
 #form1{
   margin-left: 30%;
   margin-top: 10%;
+  font-weight: bold;
+  font-family: 'Staatliches', cursive;
 }
 #inputs{
   margin-left: 30%;
