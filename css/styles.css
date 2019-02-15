@@ -12,3 +12,13 @@ h1{
   margin-left: 120px;
   margin-top: 80px;
 }
+#submit{
+  margin-left: 140px;
+  margin-top: 50px;
+}
+#answerHere{
+  color: red;
+  margin-left: 70px;
+  margin-top: 50px;
+  font-family: 'Patua One', cursive;
+}
