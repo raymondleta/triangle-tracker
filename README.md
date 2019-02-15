@@ -25,5 +25,5 @@ This website has been created using HTML, styled using css and the functionality
 For any questions feel free to contact me through gitongaraymondd@gmail.com
 
 ### LICENSE
-Raymond Gitonga <Copyright> 2019
+Raymond Gitonga (c) Copyright 2019
 MIT
