@@ -17,13 +17,13 @@ function trackButton(){
     //   document.getElementById('answerHere').innerHTML="Please enter values";
     // }
 
-    if((A===B) && (B===C) && (C===A)){
+    if((A+B)<=C || (B+C)<=A || (C+A)<=B){
+      document.getElementById('answerHere').innerHTML="This is not a triangle";
+    }else if ((A===B) && (B===C) && (C===A)){
       document.getElementById('answerHere').innerHTML="This is an equilateral triangle";
     } else if ((A===B) || (B===C) || (C===B)) {
       document.getElementById('answerHere').innerHTML="This is an isoceles triangle";
     }else if ((A!==B) && (B!==C) && (C!==A)) {
       document.getElementById('answerHere').innerHTML="This is a scalene triangle";
-    }else if ((A===NaN) || (B===NaN) || (C===NaN)) {
-      document.getElementById('answerHere').innerHTML="Please enter values";
     }
  };
