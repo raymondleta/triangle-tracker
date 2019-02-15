@@ -16,11 +16,18 @@ h1{
   width: 100px;
   height: 70px;
   border-radius: 30px;
+  font-family: 'Teko', sans-serif;
+  font-size: 18px;
 
 }
 #submit{
-  margin-left: 140px;
+  margin-left: 130px;
   margin-top: 50px;
+  width: 90px;
+  height: 50px;
+  border-radius: 25px;
+  font-family: 'Teko', sans-serif;
+  font-size: 20px;
 }
 #answerHere{
   color: red;
