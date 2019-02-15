@@ -9,7 +9,7 @@ Version 1.0.0
 Raymond Gitonga
 
 ## Description
-This website inputs the measurements from three input functions, then using an onclick function computes them using a control flow that compares the dimensions of the side to each other then outputs the result using an output method. Stating whether the shape is an equilaterall triangle, an isoceles triangle, a scalene triangle or not a triangle at all.
+This website inputs the measurements of a triangle from three input functions, then using an onclick function computes them using a control flow that compares the dimensions of the sides to each other. It then outputs the result using an output method. Stating whether the shape is an equilaterall triangle, an isoceles triangle, a scalene triangle or not a triangle at all.
 
 ## Setup Installation Requirement
 No setup or installation required, the site only needs to be run in a browser
