@@ -1,6 +1,12 @@
 body{
   background-image: url(../images/shapes7.jpg);
 }
+#intro{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
 
 h1{
   font-family: 'Hanalei Fill', cursive;

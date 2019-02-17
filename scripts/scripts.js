@@ -1,10 +1,11 @@
 function stoppedTyping(){
-    if(this.length < 0) {
+    if(sideA.length === 0 || sideB.length===0 || sideC.length===0) {
         document.getElementById('submitButton').disabled = true;
       } else {
         document.getElementById('submitButton').disabled = false;
       }
     };
+
 
 function trackButton(){
   var A=parseFloat(document.getElementById("sideA").value);

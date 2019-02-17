@@ -6,6 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link rel="shortcut icon" type="image/png" href="images/favicon1.png">
     <title>Triangle Tracker</title>
@@ -14,10 +15,12 @@
   <body>
     <h1>Triangle Tracker</h1>
 
+    <p id="intro">Enter the sides of your triangle in centimetres(cm)</p>
+
     <form id="form1">
-      Side A: <input type="number" id="sideA" onkeyup="stoppedTyping()"  />
-      Side B: <input type="number" id="sideB" onkeyup="stoppedTyping()" />
-      Side C: <input type="number" id="sideC" onkeyup="stoppedTyping()"  />
+      Side A: <input type="number" id="sideA" onkeydown="stoppedTyping()"  />
+      Side B: <input type="number" id="sideB" onkeydown="stoppedTyping()" />
+      Side C: <input type="number" id="sideC" onkeydown="stoppedTyping()"  />
     </form>
 
     <div id="inputs">
