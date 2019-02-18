@@ -1,11 +1,10 @@
-function stoppedTyping(){
-    if(sideA.length === 0 || sideB.length === 0 || sideC.length === 0) {
+function stoppedTyping(form1){
+    if(this.length < 0) {
         document.getElementById('submitButton').disabled = true;
       } else {
         document.getElementById('submitButton').disabled = false;
       }
     };
-
 
 function trackButton(){
   var A=parseFloat(document.getElementById("sideA").value);
@@ -20,9 +19,9 @@ function trackButton(){
       document.getElementById('answerHere').innerHTML=array1[1];
     } else if ((A===B) || (B===C) || (C===B)) {
       document.getElementById('answerHere').innerHTML=array1[2];
-    }else if ((A!==B) && (B!==C) && (C!==A)) {
-      document.getElementById('answerHere').innerHTML=array1[3];
-    }else{
+    }else if ((A===" ") || (B===" ") || (C===" ")) {
       document.getElementById('answerHere').innerHTML=array1[4];
+    }else if((A!==B) && (B!==C) && (C!==A)){
+      document.getElementById('answerHere').innerHTML=array1[3];
     }
  };
