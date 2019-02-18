@@ -12,11 +12,16 @@ Raymond Gitonga
 This website inputs the measurements of a triangle from three input functions, then using an onclick function computes them using a control flow that compares the dimensions of the sides to each other. It then outputs the result using an output method. Stating whether the shape is an equilaterall triangle, an isoceles triangle, a scalene triangle or not a triangle at all.
 
 ## BDD
-|Behaviour   	|  Input  	|   Output	|   	|   	|
+|Behaviour   	|  Input  	|   Output	|   
 |---	|---	|---	|---	|---	|
-|User enters three equal sides   	|  9,9,9 	|Equilateral triangle|   	|   	|
-|   User enters three sides not equal 	| 9,9,7  	|   Scalene triangle	|   	|   	|
-|  User enters two equal sides 	|  8,8,7 	|  Isoceles triangle 	|   	|   	|
+|User enters three equal sides   	|  9,9,9 	|Equilateral triangle|   	
+|   User enters three sides not equal 	| 9,9,7  	|   Scalene triangle	|   	
+|  User enters two equal sides 	|  8,8,7 	|  Isoceles triangle 	|   	
+|When the sum of any two sides > third side| 9,4,3| This is not a triangle|
+
+## Known Bugs
+Still brings value even when only one input is keyed in
+
 ## Setup Installation Requirement
 No setup or installation required, the site only needs to be run in a browser
 
