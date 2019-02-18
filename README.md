@@ -1,4 +1,4 @@
-## Triangle Tracker
+# Triangle Tracker
 
 This website using html forms and javascript allows input of shape dimensions
 and computes out whether the shape is a triangle or not, and what type of triangle it is
