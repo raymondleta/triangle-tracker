@@ -1,35 +1,36 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link href="https://fonts.googleapis.com/css?family=Hanalei+Fill" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <link rel="shortcut icon" type="image/png" href="images/favicon1.png">
-    <title>Triangle Tracker</title>
-  </head>
 
-  <body>
-    <h1>Triangle Tracker</h1>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Hanalei+Fill" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" type="image/png" href="images/favicon1.png">
+  <title>Triangle Tracker</title>
+</head>
 
-    <p id="intro">Enter the sides of your triangle in centimetres(cm)</p>
+<body>
+  <h1>Triangle Tracker</h1>
+  <p id="intro">Enter the sides of your triangle in centimetres(cm)</p>
 
-    <form id="form1">
-      Side A: <input type="number" id="sideA" onkeydown="stoppedTyping(this)" />
-      Side B: <input type="number" id="sideB" onkeydown="stoppedTyping(this)" />
-      Side C: <input type="number" id="sideC" onkeydown="stoppedTyping(this)" />
-    </form>
+  <form id="form1">
+    Side A: <input type="number" id="sideA" onkeydown="stoppedTyping(this)" />
+    Side B: <input type="number" id="sideB" onkeydown="stoppedTyping(this)" />
+    Side C: <input type="number" id="sideC" onkeydown="stoppedTyping(this)" />
+  </form>
 
-    <div id="inputs">
-      <button onclick="trackButton()" id="submitButton" disabled/>Triangle Type</button>
-      <form method="get" action="index.html">
+  <div id="inputs">
+    <button onclick="trackButton()" id="submitButton" disabled />Triangle Type</button>
+    <form method="get" action="index.html">
       <button type="submit" id="submit">Reset</button>
-    </div>
+  </div>
 
-    <p id="answerHere"></p>
-    <script src="scripts/scripts.js" charset="utf-8"></script>
-  </body>
+  <p id="answerHere"></p>
+  <script src="scripts/scripts.js" charset="utf-8"></script>
+</body>
+
 </html>

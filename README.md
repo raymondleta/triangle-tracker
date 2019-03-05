@@ -19,10 +19,8 @@ This website inputs the measurements of a triangle from three input functions, t
 |  User enters two equal sides 	|  8,8,7 	|  Isoceles triangle 	|   	
 |When the sum of any two sides > third side|9,4,3 | This is not a triangle |
 
-## Known Bugs
-Still brings result even when one value is added to the input
 ## Setup Installation Requirement
-No setup or installation required, the site only needs to be run in a browser
+To access this project, you will need to access it from github then clone it. Then run 'git clone https://raymondleta.github.io/triangle-tracker/' on your terminal
 
 ## Demo website
 
